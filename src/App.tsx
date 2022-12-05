@@ -13,7 +13,7 @@ function App() {
                 EMPRÉSTIMOS E ALUGUÉIS POR MEIO DA TOKENIZAÇÃO
             </h1>
 
-            <div className="container" id="about">
+            <div className="container-fluid px-5" id="about">
                 <h2 className="col-md text-center m-auto py-3">
                     Sobre o Projeto
                 </h2>
@@ -25,7 +25,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="container" id="motivation">
+            <div className="container-fluid px-5" id="motivation">
                 <div className="row p-3 gap-5">
                     <h2 className="col-md text-center m-auto">Motivação</h2>
                     <div className="col-md">
@@ -37,19 +37,19 @@ function App() {
                 </div>
             </div>
 
-            <div className="container" id="objective">
-                <div className="row p-3 gap-5">
+            <div className="container-fluid px-5" id="objective">
+                <div className="row p-3 gap-5 flex-row-reverse">
+                    <h2 className="col-md text-center m-auto ">Objetivo</h2>
                     <div className="col-md">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Ipsum cupiditate maiores sed cum accusantium
                         magnam fuga adipisci nesciunt eius fugit! Maxime
                         quisquam autem odit fugit fuga? Amet porro natus earum!
                     </div>
-                    <h2 className="col-md text-center m-auto">Objetivo</h2>
                 </div>
             </div>
 
-            <div className="container" id="results">
+            <div className="container-fluid px-5" id="results">
                 <h2 className="col-md text-center m-auto py-3">Resultados</h2>
                 <div className="col-md py-3">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -59,7 +59,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="container" id="documentation">
+            <div className="container-fluid px-5" id="documentation">
                 <h2 className="col-md text-center m-auto py-3">Documentação</h2>
                 <div className="col-md py-3">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
