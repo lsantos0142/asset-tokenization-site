@@ -1,5 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Banner from "./assets/Banner.pdf";
 import Monografia from "./assets/Monografia.pdf";
