@@ -2,17 +2,19 @@ import "./App.css";
 import Banner from "./assets/Banner.pdf";
 import Monografia from "./assets/Monografia.pdf";
 import PressRelease from "./assets/PressRelease.pdf";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./Navbar";
 
 function App() {
     return (
         <div className="App">
+            <Navbar />
+
             <h1 className="text-center py-5">
                 AUMENTO DA LIQUIDEZ DE ATIVOS IMOBILIÁRIOS EM APLICAÇÕES DE
                 EMPRÉSTIMOS E ALUGUÉIS POR MEIO DA TOKENIZAÇÃO
             </h1>
 
-            <div className="container">
+            <div className="container" id="about">
                 <h2 className="col-sm text-center m-auto py-3">
                     Sobre o Projeto
                 </h2>
@@ -24,7 +26,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container" id="motivation">
                 <div className="row p-3 gap-5">
                     <h2 className="col-sm text-center m-auto">Motivação</h2>
                     <div className="col-sm">
@@ -36,7 +38,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container" id="objective">
                 <div className="row p-3 gap-5">
                     <div className="col-sm">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -48,21 +50,25 @@ function App() {
                 </div>
             </div>
 
-            <h2 className="p-md-3">Resultados</h2>
+            <div className="container" id="results">
+                <h2 className="col-sm text-center m-auto py-3">Resultados</h2>
+                <div className="col-sm py-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ipsum cupiditate maiores sed cum accusantium magnam fuga
+                    adipisci nesciunt eius fugit! Maxime quisquam autem odit
+                    fugit fuga? Amet porro natus earum!
+                </div>
+            </div>
 
-            <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-                reiciendis aspernatur itaque, voluptatem maiores praesentium?
-                Nihil deleniti facilis a atque.
-            </span>
-
-            <h2 className="p-md-3">Documentação</h2>
-
-            <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-                reiciendis aspernatur itaque, voluptatem maiores praesentium?
-                Nihil deleniti facilis a atque.
-            </span>
+            <div className="container" id="documentation">
+                <h2 className="col-sm text-center m-auto py-3">Documentação</h2>
+                <div className="col-sm py-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ipsum cupiditate maiores sed cum accusantium magnam fuga
+                    adipisci nesciunt eius fugit! Maxime quisquam autem odit
+                    fugit fuga? Amet porro natus earum!
+                </div>
+            </div>
 
             <div className="d-flex gap-3 p-md-3">
                 <object
