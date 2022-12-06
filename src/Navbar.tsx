@@ -19,7 +19,7 @@ function Navbar() {
     ];
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark p-2">
             <div className="container-fluid">
                 <button
                     onClick={toggleHidden}
